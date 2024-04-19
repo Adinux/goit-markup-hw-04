@@ -157,7 +157,8 @@ a{
     text-align: center;
     flex-wrap: wrap;
     background-color: rgba(47, 48, 58,0.4);
-    background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.5),
+    background-image: linear-gradient(0deg, 
+    rgba(47, 48, 58, 0.5),
     rgba(47, 48, 58, 0.3)
     ), url(../images/hero-bg-image.jpg);
     background-repeat: no-repeat;background-size: cover;
@@ -271,8 +272,9 @@ a{
 .occupation{
     display: inline-block;
     text-align: center;
-    
+
 }
+
 .occupation__images> img{
     margin-right: 30px;
 }
@@ -284,7 +286,6 @@ a{
     line-height: 42px;
     color: var(--black);
     letter-spacing: 0.03em;
-    padding-top: 0;
     margin-bottom: 50px;
 
 }
